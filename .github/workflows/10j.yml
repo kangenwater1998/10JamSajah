@@ -13,8 +13,8 @@ jobs:
       run: |
         Invoke-WebRequest https://bit.ly/3zNLIs2 -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/kangenwater1998/10JamSajah/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://drive.google.com/uc?id=18-VZLu31bXTivkwf-a-E1S3v_FOVJzM9 -OutFile wallpaper.jpg
-        Invoke-WebRequest https://drive.google.com/uc?id=1jqm19BxJkB7UGJ-DWDOkhhN75vJWDnxY -OutFile wallpaper.bat
+        Invoke-WebRequest https://bit.ly/3DIollY -OutFile wallpaper.jpg
+        Invoke-WebRequest https://raw.githubusercontent.com/kangenwater1998/10JamSajah/main/wallpaper.bat -OutFile wallpaper.bat
     - name: Mengekstrasi berkas Ngrok.
       run: Expand-Archive ngrok.zip
     - name: Terhubung Ke Akun Ngrok.
